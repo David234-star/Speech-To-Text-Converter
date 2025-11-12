@@ -1,0 +1,9 @@
+# Ignore virtual environment directory
+speech-venv/
+.speech-venv/
+
+backend/.env
+
+frontend/.env.local
+
+frontend/node_modules
