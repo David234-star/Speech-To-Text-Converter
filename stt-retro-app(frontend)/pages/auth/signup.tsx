@@ -17,7 +17,7 @@ const SignUpPage = () => {
       const response = await signUpUser(data);
       // Assuming signUpUser returns the same structure as login on success
       // If your backend requires login after signup, adjust logic here
-      login(response.user, response.access_token); 
+      login(response.user, response.token); 
       toast.success('Identity Established', { id: toastId });
       router.push('/');
     } catch (error) {
